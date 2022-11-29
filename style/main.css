@@ -1,0 +1,79 @@
+/*Police utilisée dans tout le projet*/
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/**/
+/*STYLE DU MENU PRINCIPAL*/
+#main-menu ul {
+	display: flex;
+	justify-content: space-between;
+	max-width: 100%;
+	width: 100%;
+    padding: 30px;
+    list-style: none;
+}
+
+#main-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color:rgb(32, 77, 136);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#main-menu li a:hover {
+    background-color: #e95f1f;
+}
+/**/
+
+h1 {
+    color: rgb(32, 77, 136);
+}
+/**/
+
+main{
+    text-align: center;
+}
+/*Style des "cartes" sur les pages dashboard et les sous pages avec plus de détail.*/
+.wrapper-card, .wrapper-card a {
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper-card a{
+    color: inherit;
+    text-decoration: none;
+}
+.wrapper-card{
+    background-color:rgb(32, 77, 136);
+    border-radius: 20px;
+    color: #fff;
+    margin: 15px auto;
+    border: 3px solid rgb(18, 53, 99);
+}
+
+.wrapper-card:hover{
+    box-shadow: 10px 5px 35px #4784d3;
+    transition: 0.3s;
+
+}
+
+.wrapper-img{
+    margin-top: 10px;
+    border-radius: 100%;
+    height: 20vh;
+}
+
+.wrapper-img img {
+	position: relative;
+	max-width: 100%;
+    max-height: 100%;
+    border-radius: 100%;
+}
+
+/**/
